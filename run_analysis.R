@@ -49,3 +49,6 @@ run_analysis<-function(){
   ## Write tidy data to file
   write.table(tdata, file="tidy_data.txt", row.names=FALSE)
 }
+
+
+
