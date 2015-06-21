@@ -33,3 +33,5 @@ Write the tidy data to a file called "tidy_data.txt".
 I have included code to read the file into a variable called tidy_data for the markers convenience. I want to thank the TA's for the suggestion.
 
 tidy_data <- read.table("~/tidy_data.txt", header=TRUE, quote="\"")
+
+Data for this project is found here; https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
