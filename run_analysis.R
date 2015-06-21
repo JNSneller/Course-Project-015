@@ -1,5 +1,5 @@
 run_analysis<-function(){
-  ## load dplyr library
+  ## load dplyr library 
   library(dplyr)
   
   ## Load data from files
