@@ -19,7 +19,7 @@ run_analysis<-function(){
   ## bind the two data sets together
   data<-rbind(test, train)
   
-  ## replace the column names with meaningfull names from the other data frames
+  ## replace the column names with the names contained as records in the other data frames
   colnames(data)<-c("subject", "activity", as.vector(features[,2]))
   
   ## drop duplicate columns
