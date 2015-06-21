@@ -1,6 +1,6 @@
 run_analysis<-function(){
   ## load dplyr library
-  library(dplyr)
+  library(dplyr) 
   wd<-getwd()
   
   ## Load data from files
