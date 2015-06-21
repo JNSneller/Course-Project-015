@@ -1,5 +1,5 @@
 run_analysis<-function(){
-  ## load dplyr library 
+  ## load dplyr library  
   library(dplyr)
   wd<-getwd()
   
