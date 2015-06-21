@@ -1,16 +1,17 @@
 run_analysis<-function(){
   ## load dplyr library 
   library(dplyr)
+  wd<-getwd()
   
   ## Load data from files
-  X_test <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt", quote="\"")
-  y_test <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt", quote="\"")
-  X_train <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt", quote="\"")
-  y_train <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt", quote="\"")
-  subject_test <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt", quote="\"")
-  subject_train <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt", quote="\"")
-  activity_labels <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt", quote="\"")
-  features <- read.table("~/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/features.txt", quote="\"")
+  X_test <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt", sep=""), quote="\"")
+  y_test <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt", sep=""), quote="\"")
+  X_train <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt", sep=""), quote="\"")
+  y_train <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt", sep=""), quote="\"")
+  subject_test <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt", sep=""), quote="\"")
+  subject_train <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt", sep=""), quote="\"")
+  activity_labels <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt", sep=""), quote="\"")
+  features <- read.table(paste(wd,"/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/features.txt", sep=""), quote="\"")
   
   ## bind subject id's to device data frames
   test<-cbind(subject_test, y_test, X_test)
