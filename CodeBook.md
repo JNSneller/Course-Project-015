@@ -1,19 +1,19 @@
-Data Column Names and types	                                       Metric
+Data Column Names and types	                                       Description
  $ subject                    : int                          Test subject
  $ activity                   : Factor                       Activity performed
- $ tBodyAcc.mean...X          : num                          Body accelerometor X coordinate - Mean
- $ tBodyAcc.mean...Y          : num                          Body accelerometor Y coordinate - Mean
- $ tBodyAcc.mean...Z          : num  	                       Body accelerometor Z coordinate - Mean
- $ tBodyAcc.std...X           : num                          Body accelerometor X coordinate - Standard Deviation
- $ tBodyAcc.std...Y           : num                          Body accelerometor Y coordinate - Standard Deviation
- $ tBodyAcc.std...Z           : num  	                       Body accelerometor Z coordinate - Standard Deviation
- $ tGravityAcc.mean...X       : num  
- $ tGravityAcc.mean...Y       : num  
- $ tGravityAcc.mean...Z       : num  
- $ tGravityAcc.std...X        : num  
- $ tGravityAcc.std...Y        : num  
- $ tGravityAcc.std...Z        : num   
- $ tBodyAccJerk.mean...X      : num  
+ $ tBodyAcc.mean...X          : num                          Body Accelerometer X coordinate - Mean
+ $ tBodyAcc.mean...Y          : num                          Body Accelerometer Y coordinate - Mean
+ $ tBodyAcc.mean...Z          : num  	                       Body Accelerometer Z coordinate - Mean
+ $ tBodyAcc.std...X           : num                          Body Accelerometer X coordinate - Standard Deviation
+ $ tBodyAcc.std...Y           : num                          Body Accelerometer Y coordinate - Standard Deviation
+ $ tBodyAcc.std...Z           : num  	                       Body Accelerometer Z coordinate - Standard Deviation
+ $ tGravityAcc.mean...X       : num                          Gravity Accelerometer X coordinate - Mean
+ $ tGravityAcc.mean...Y       : num                          Gravity Accelerometer Y coordinate - Mean
+ $ tGravityAcc.mean...Z       : num                          Gravity Accelerometer Z coordinate - Mean
+ $ tGravityAcc.std...X        : num                          Gravity Accelerometer X coordinate - Standard Deviation
+ $ tGravityAcc.std...Y        : num                          Gravity Accelerometer Y coordinate - Standard Deviation
+ $ tGravityAcc.std...Z        : num                          Gravity Accelerometer Z coordinate - Standard Deviation
+ $ tBodyAccJerk.mean...X      : num                          Body Accelerometer Jerk X coordinate - Mean
  $ tBodyAccJerk.mean...Y      : num  
  $ tBodyAccJerk.mean...Z      : num  
  $ tBodyAccJerk.std...X       : num  
